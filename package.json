@@ -1,7 +1,7 @@
 {
   "name": "swan-vue-template",
   "version": "1.0.1",
-  "description": "",
+  "description": "<%= description%>",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -14,8 +14,8 @@
     "url": "git+https://github.com/cyt-cli/swan-vue-template.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "<%= author%>",
+  "license": "<%= license%>",
   "bugs": {
     "url": "https://github.com/cyt-cli/swan-vue-template/issues"
   },
