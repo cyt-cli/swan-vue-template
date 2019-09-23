@@ -1,0 +1,49 @@
+@import "./variables.scss";
+
+body {
+    background-color: $bodybg;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.slogan {
+    margin: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.tip {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+ 
+.box {
+    transform: rotate(7deg);
+    text-align: center;
+    animation: box-rotate infinite 20s linear;
+
+    .iconfont {
+        font-size: 50px;
+        color: white;
+    }
+}
+
+@keyframes box-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+    
